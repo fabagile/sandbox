@@ -1,4 +1,4 @@
 {"recs": [
-    {"barcode":"01234567","serial":"ABCD","model":"machin","hostname":"","type":"Smartphone"},
-    {"barcode":"12345678","serial":"EFGH","model":"truc","hostname":"","type":"PDA"}
+    {"code-barres":"01234567","n° de série":"ABCD","modèle":"machin","nom d'hôte":"","type":"Smartphone"},
+    {"code-barres":"12345678","n° de série":"EFGH","modèle":"truc","nom d'hôte":"","type":"PDA"}
 ]}

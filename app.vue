@@ -1,26 +1,22 @@
 <script>
-import { Layout,Nav } from '#components';
-import '~/assets/main.css'
+import { Layout, Nav, Footer } from "#components";
+import "~/assets/main.css";
 // import Layout
 export default {
-  components:{
-    Layout,Nav
-  }
+  components: {
+    Layout,
+    Nav,
+    Footer
+  },
 };
 </script>
 
 <template>
-  <div class="container">
-    <!-- <Layout /> -->
-    <Nav/>
-    <!-- <nav>
-      <a href="/">Accueil</a>
-      |
-      <a href="/about">A propos</a>
-      |
-      <a href="/help">Aide</a>
-    </nav> -->
-    <!-- <NuxtRouteAnnouncer /> -->
-    <NuxtPage />
-  </div>
+    <Nav />
+    <main>
+      <NuxtPage />
+    </main>
+    
+    <Footer />
+  
 </template>

@@ -1,1 +1,19 @@
-@import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+body,
+html {
+    min-height: 100%;
+
+}
+
+#__nuxt {
+    height: 100vh !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+
+}
+
+main {
+    flex: 1;
+}

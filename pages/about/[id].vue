@@ -1,5 +1,5 @@
 <script setup>
-import { infos } from "./data";
+import { infos } from "~/data/about";
 const route = useRoute();
 const { id } = route.params;
 const info = infos.find((item) => item.id == id);

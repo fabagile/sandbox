@@ -1,5 +1,5 @@
 <script setup>
-import {infos} from "./data"
+import {infos} from "~/data/about"
 </script>
 <template>
     <h2>A propos</h2>

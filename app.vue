@@ -1,22 +1,24 @@
 <script>
-import { Layout, Nav, Footer } from "#components";
+import { Nav, Footer } from "#components";
 import "~/assets/main.css";
 // import Layout
 export default {
+  // data(): {
+  //   theme: "success-subtle",
+  // },
+
   components: {
-    Layout,
     Nav,
-    Footer
+    Footer,
   },
 };
 </script>
 
 <template>
-    <Nav />
-    <main>
-      <NuxtPage />
-    </main>
-    
-    <Footer />
-  
+  <Nav theme="success-subtle" />
+  <main class="container my-5">
+    <NuxtPage />
+  </main>
+
+  <Footer theme="success-subtle" />
 </template>

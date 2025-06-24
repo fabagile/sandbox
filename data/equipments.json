@@ -1,4 +1,22 @@
 {"recs": [
-    {"code-barres":"01234567","n° de série":"ABCD","modèle":"machin","nom d'hôte":"","type":"Smartphone"},
-    {"code-barres":"12345678","n° de série":"EFGH","modèle":"truc","nom d'hôte":"","type":"PDA"}
+    {
+    "Code-barres": "00001294",
+    "N° Série": "3CQ049BL9R",
+    "Modèle": "ECRAN LCD 19''",
+    "Nom": "",
+    "Lot": "RGIE3093",
+    "Environnement": "",
+    "Type": "",
+    "Salle": "FB024"
+  },
+    {
+    "Code-barres": "00513925",
+    "N° Série": "53R0828700",
+    "Modèle": "Unité centrale caisse BEETLE MIII R1",
+    "Nom": "29620POS028",
+    "Lot": "29620POS028",
+    "Environnement": "NEMO",
+    "Type": "Unité principale",
+    "Salle": "FB026"
+  }
 ]}

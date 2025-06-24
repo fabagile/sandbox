@@ -1,0 +1,4 @@
+[
+  { "to": "/", "label": "Accueil" },
+  { "to": "/mat", "label": "Matériel" }
+]

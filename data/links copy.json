@@ -1,0 +1,4 @@
+[
+  { "to": "/", "label": "Accueil", "icon": "i-lucide-house" },
+  { "to": "/mat", "label": "Matériel", "icon": "i-lucide-monitor-smartphone" }
+]

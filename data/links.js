@@ -1,6 +1,6 @@
 export const links = [
-    {url: "/", label:"Accueil"},
-    {url: "/mat", label:"Matériel"},
+    {to: "/", label:"Accueil", icon: "i-lucide-house"},
+    {to: "/mat", label:"Matériel", icon: "i-lucide-monitor-smartphone"},
     // {url: "/about", label:"A propos"},
     // {url: "/help", label:"Aide"},
 

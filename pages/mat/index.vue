@@ -1,8 +1,6 @@
 <script setup>
 import collection from "~/data/equipments.json";
-const { recs } = collection;
-const header = Object.keys(recs[0]);
-const set = [...new Set(recs)];
+const items = [...collection];
 
 console.log(collection);
 </script>
@@ -18,9 +16,7 @@ export default {
 };
 </script>
 
-
 <template>
   <Title title="Matériel" />
-  <Table :collection="recs" />
-
+  <Table :collection="items" />
 </template>

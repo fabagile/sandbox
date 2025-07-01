@@ -1,6 +1,6 @@
 <script setup>
-import collection from "~/data/equipments.json";
-const items = [...collection];
+ import collection from "~/data/materials.json";
+// const items = [...collection];
 
 console.log(collection);
 </script>
@@ -18,5 +18,6 @@ export default {
 
 <template>
   <Title title="Matériel" />
-  <Table :collection="items" />
+  <!-- <code>{{ JSON.stringify(items.header) }}</code> -->
+  <Table :collection="collection" />
 </template>

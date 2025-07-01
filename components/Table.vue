@@ -10,5 +10,5 @@ export default {
 
 
 <template>
-  <UTable sticky :data="collection" class="flex-1" />
+  <UTable sticky :columns="collection.header" :data="collection.values" class="flex-1" />
 </template>

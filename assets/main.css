@@ -1,7 +1,7 @@
 /* @import "../node_modules/bootstrap/dist/css/bootstrap.min.css"; */
 @import "tailwindcss";
 @import "@nuxt/ui";
-/* 
+
 body,
 html {
     min-height: 100%;
@@ -16,7 +16,7 @@ html {
         
         }
         
-        */
+       
 main {
   flex: 1;
 }

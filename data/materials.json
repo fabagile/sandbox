@@ -1,0 +1,58 @@
+{
+  "header": [
+    {
+      "accessorKey": "id",
+      "header": "Code-barres"
+    },
+    {
+      "accessorKey": "serial",
+      "header": "N° Série"
+    },
+    {
+      "accessorKey": "model",
+      "header": "Modèle"
+    },
+    {
+      "accessorKey": "hostame",
+      "header": "Nom"
+    },
+    {
+      "accessorKey": "item",
+      "header": "Lot"
+    },
+    {
+      "accessorKey": "environment",
+      "header": "Environnement"
+    },
+    {
+      "accessorKey": "type",
+      "header": "Type"
+    },
+    {
+      "accessorKey": "room",
+      "header": "Salle"
+    }
+  ],
+  "values": [
+    {
+      "id": "00001294",
+      "serial": "3CQ049BL9R",
+      "model": "ECRAN LCD 19''",
+      "hostame": "",
+      "item": "RGIE3093",
+      "environment": "",
+      "type": "",
+      "room": "FB024"
+    },
+    {
+      "id": "00513925",
+      "serial": "53R0828700",
+      "model": "Unité centrale caisse BEETLE MIII R1",
+      "hostame": "29620POS028",
+      "item": "29620POS028",
+      "environment": "NEMO",
+      "type": "Unité principale",
+      "room": "FB026"
+    }
+  ]
+}

@@ -8,7 +8,10 @@ export default {
 </script>
 
 <template>
-  <footer class="d-flex justify-content-center py-3" :class="`bg-${theme}`">
-    <div>fabagile &copy; 2025</div>
+  <footer class="flex justify-center py-3" :class="`bg-${theme}`">
+    <div>
+      <div>Salle de recette &copy; 2025</div>
+
+    </div>
   </footer>
 </template>
